@@ -8,3 +8,5 @@
   https://github.com/inancgumus/learngo Chapters 14,16.
     
 ## Do not forget to commit the initial and final work.
+
+inancgumus/learngo iceriside bulunan alistirmalarin hepsini yapmadim temel olustursun diye her birinden 2 adet yaptim.
