@@ -31,5 +31,11 @@ func SieveForPrimeDetect(n int) []int {
 }
 
 func main() {
-	fmt.Println(SieveForPrimeDetect(50))
+	var num int // input number by user
+	fmt.Print("enter the number: ")
+	_, err := fmt.Scan(&num) // get input from user
+	if err != nil {          // looks for a error
+		fmt.Println("Invalid inputs try again: err:", err)
+	}
+	fmt.Println(SieveForPrimeDetect(num))
 }
